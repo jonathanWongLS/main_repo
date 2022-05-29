@@ -1,0 +1,34 @@
+/* Takes more than 1 tags */
+* {
+    border: 1px solid lightgrey
+}
+
+/* Every tag in ul li a */
+li a {
+    color: red;
+
+}
+
+/* Adjacent Selectors */
+h4 + ul {
+    border: 4px solid red;
+}
+
+/* Attributes Selectors */
+
+a[href= "http://google.com"] {
+    background: lightblue;
+}
+
+input[type = "text"] {
+    background: blue;
+}
+
+input[type = "checkbox"] {
+    background: blue;
+}
+
+/* n th of type */
+li:nth-of-type(3){
+    background: purple;
+}

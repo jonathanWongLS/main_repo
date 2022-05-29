@@ -1,0 +1,112 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+#book-container {
+  margin: 0 auto;
+  width: 70%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  display: block;
+  height: auto;
+  transition: all 0.3s ease 0s;
+  padding: 1.25em 0.625em 1.25em 1.25em;
+}
+
+.booking-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.27273em;
+  margin: 0;
+}
+
+#car-Booking-form {
+  padding: 15px 0 !important;
+}
+
+@media (min-width: 992px) #car-booking-form .col-md-12 {
+  width: 100%;
+}
+
+input,
+textarea,
+keygen,
+select,
+button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em 0em 0em 0em;
+  font: 13.3333px Arial;
+}
+
+#loginBtn {
+  background: #009cde none repeat scroll 0 0;
+  border-bottom: 1px solid #0052a0;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#loginBtn:hover {
+  background-color: #373538;
+  color: #fff;
+}
+
+#regBtn {
+  background: #009cde none repeat scroll 0 0;
+  border-bottom: 1px solid #0052a0;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#regBtn:hover {
+  background-color: #373538;
+  color: #fff;
+}
+
+.nav-tabs {
+  margin-bottom: 15px;
+}
+
+.sign-with {
+  margin-top: 25px;
+  padding: 20px;
+}
+
+div#OR {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #C2C2C2;
+  border-radius: 50%;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  font-size: 12px;
+  float: right;
+  position: absolute;
+  right: -16px;
+  top: 40%;
+  z-index: 1;
+  background: #DFDFDF;
+}
+
+#tabloginMsg {
+  font-size: 1.2em;
+  color: red;
+}
+
+#tabregMsg {
+  fon-size: 1.2em;
+  color: red;
+}

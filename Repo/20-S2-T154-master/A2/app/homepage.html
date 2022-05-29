@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Trip Panner</title>
+        <!-- Font Awesome Icon -->
+        <script src="https://kit.fontawesome.com/7bd9cf9e1b.js" crossorigin="anonymous"></script>
+        <!-- Material Design Lite -->
+        <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <!-- Material Design icon font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- W3school css stylesheet -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                background-color: black;
+            }
+
+            .demo-layout-transparent {
+                background: url('https://upload.wikimedia.org/wikipedia/commons/7/71/Black.png') center / cover;
+            }
+            .demo-layout-transparent .mdl-layout__header,
+            .demo-layout-transparent .mdl-layout__drawer-button {
+        /* This background is dark, so we set text to white. Use 87% black instead if
+        your background is light. */
+            color: white;
+            }
+            /* Create a Parallax Effect */
+            .bgimg-1, .bgimg-2, .bgimg-3 {
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            /* First image (Logo. Full height) */
+            .bgimg-1 {
+            background-image: url('https://images.pexels.com/photos/408503/pexels-photo-408503.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+            min-height: 60%;
+            }
+            /* Turn off parallax scrolling for tablets and phones */
+            @media only screen and (max-device-width: 1600px) {
+            .bgimg-1, .bgimg-2, .bgimg-3 {
+                background-attachment: scroll;
+                min-height: 400px;
+            }
+            }
+            .white-text {
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Uses a transparent header that draws on top of the layout's background -->
+        <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--transparent">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">TRIP PLANNER</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation -->
+                <nav class="mdl-navigation">
+                    <a class="black-text mdl-navigation__link" href="">Login</a>
+                    <i class="fas fa-user"><span>Guest</span></i>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">TRIP PLANNER</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="homepage.html">Homepage</a>
+                <a class="mdl-navigation__link" href="scheduled.html">Scheduled Trip</a>
+                <a class="mdl-navigation__link" href="history.html">History</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+                <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+                    <div class="w3-display-middle" style="white-space:nowrap;">
+                        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">UR <span class="w3-hide-small">TRIP</span> PLANNER</span>
+                    </div>
+                </div>
+                <div class="w3-content w3-container w3-padding-64 white-text" id="about">
+                    <h3 class="w3-center">ABOUT ME</h3>
+                    <p class="w3-center"><em>I love photography</em></p>
+                    <p>This is example for trip planning website. A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                    </p>
+                </div>
+                <div class="w3-content w3-container w3-padding-64 white-text" id="about">
+                    <h3 class="w3-center">ABOUT ME</h3>
+                    <p class="w3-center"><em>I love photography</em></p>
+                    <p>This is example for trip planning website. A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                    </p>
+                </div>
+                <div class="w3-content w3-container w3-padding-64 white-text" id="about">
+                    <h3 class="w3-center">ABOUT ME</h3>
+                    <p class="w3-center"><em>I love photography</em></p>
+                    <p>This is example for trip planning website. A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                        A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+                    </p>
+                </div>
+        </main>
+        </div>
+  </body>
+</html>

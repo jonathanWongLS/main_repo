@@ -1,0 +1,16 @@
+/* selector{
+    property: value;
+    anotherProperty: value;
+ }
+  */
+
+h1 {
+    color: rgb(105, 77, 105);
+    font-size: 56px;
+
+}
+
+img {
+    border-color: red;
+    border-width: 3px;
+}

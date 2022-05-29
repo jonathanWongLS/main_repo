@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Form Demo</title>
+
+</head>
+
+<!--
+        action - URL to send form data
+        method - type of HTTP method
+    -->
+
+    <!--
+        input types
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+    -->
+
+<body>
+    <!-- <h1>Login</h1>
+    <form action="/sign-in-url" method="POST">
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <input type="color" placeholder="color">
+        <input type="radio" placeholder="radio">
+        <button>Submit</button>
+        <input type="submit">
+    </form> -->
+
+    <h1>Login</h1>
+    <!--basic form and input-->
+    <form action = "http://wikipedia.org" method = "GET">
+        <input name = "username" type="text" placeholder="username">
+        <input name = "password" type="password" placeholder="password">
+        <input type="submit">
+    </form>
+    <br>
+
+    <!--Using labels-->
+    <h3>With Labels</h3>
+    <form action="http://wikipedia.org">
+        <label for="username">Username: </label>
+        <input id ="username" type="text" placeholder="username">
+
+        <label for="password">Password: </label>
+        <input id ="password" type="text" placeholder="password">
+    
+    </form>
+    <br>
+
+    <!--Validations-->
+    <form action="http://wikipedia.org">
+        <h3>Validates</h3>
+        <label for="username">Username: </label>
+        <input id ="username" type="text" placeholder="username" required>
+
+        <label for="password">Password: </label>
+        <input id ="password" type="text" placeholder="password" required>
+        
+        <label for="email">Email: </label>
+        <input id ="email" type="email" placeholder="email" required>
+
+        <input type="submit">
+    
+    </form>
+
+</body>
+</html>

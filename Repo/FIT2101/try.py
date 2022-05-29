@@ -1,0 +1,1 @@
+print(sorted(['la', 'f', 'li', 'y','m','j']))

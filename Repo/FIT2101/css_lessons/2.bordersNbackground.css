@@ -1,0 +1,35 @@
+h1 {
+    color: rgba(0, 200, 100, 0.8);
+    
+    /*Long version*/
+    border-color: purple;
+    border-width: 2px;
+    border-style: dashed;
+
+    /*Shortcut version*/
+    border: 2px solid rgb(255, 100, 80)
+}
+
+/* width
+color
+style */
+
+h4 {
+    background: rgb(255, 100, 80);
+}
+
+body {
+    /* background: url("https://media.istockphoto.com/photos/laminate-wooden-floor-texture-background-picture-id1083302826?k=20&m=1083302826&s=612x612&w=0&h=JQ-hboLxzx3MHTmPeS6XGsUD8nsok0KpBUynOKDYKzc="); */
+    background: url("https://media.istockphoto.com/photos/digital-eye-wave-lines-stock-background-stock-video-picture-id1226241649?b=1&k=20&m=1226241649&s=170667a&w=0&h=lXhD5bdn_YT50-ItctUnqB2WiGZ8Jye1GZHjvDsb2Xo=");
+    
+    /* No tiling*/
+    background-repeat: no-repeat;
+    
+    background-size: auto
+    /* background-size: cover
+    background-size: contain */
+
+}
+
+/* ----------------------------- */
+

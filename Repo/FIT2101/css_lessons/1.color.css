@@ -1,0 +1,16 @@
+/*1. name*/
+h1 {
+    color: red;
+}
+
+/*2. rgb */
+li {
+    color: rgb(0,255,0);
+}
+
+/*3. rgba 
+    a = alpha (transparency ranges 0-10)
+*/
+h4 {
+    color: rgba(11,99,150, 5.5);
+}

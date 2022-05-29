@@ -1,0 +1,55 @@
+/* Inheritance */
+
+body {
+    color: red;
+}
+
+p {
+    color: green
+}
+
+ul {
+    color: blue;
+}
+
+/* Specificity */
+
+li {
+    color: orange;
+}
+
+.highlight {
+    color: yellow;
+}
+
+#special {
+    color: pink; 
+}
+
+/* 1. Type Selector */
+
+li {
+
+}
+
+li a {
+
+}
+
+li + a {
+
+}
+
+
+/* class, attributes, pseudo class selectors */
+.hello {
+
+}
+
+input[type = "text"] {
+
+}
+
+/* ID Selector */
+
+#hello
